@@ -381,9 +381,16 @@ li{
 .footer__wrapper{
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1fr;
-    height: 542px;
-    border: 1px solid red;
     gap: 32px;
+    padding-top: 80px;
+}
+.footer__item{
+    margin-top: 24px;
+    transition: .4s;
+}
+.footer__item:hover{
+    opacity: 70%;
+    transform: scale(1.03);
 }
 .footer__item p{
     font-family: Poppins;
@@ -393,9 +400,36 @@ li{
     color: #FEFEFE;
 }
 .footer__span{
-    font-style: 16px;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
     color: #FEFEFE;
 }
 .footer__item span{
-
+    font-family: Inter;
+    color: #FEFEFE;
+}
+.footer__item svg{
+    gap: 30px;
+}
+.footer__bottom{
+  border-top: 1px solid #6C7275;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 60px;
+}
+.footer__bottom-item span{
+    color: #6C7275;
+    font-family: Inter;
+    font-size: 12px;
+    transition: .4s;
+}
+.footer__bottom-item:hover{
+    transform: scale(1.02);
+}
+.footer__bottom-collection{
+    display: flex;
+    gap: 10px;
 }
