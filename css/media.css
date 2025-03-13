@@ -1,3 +1,11 @@
+@media (max-width: 960px){
+    .shop__wrapper{
+        grid-template-columns: 1fr ;
+    }
+    .shop__card:nth-child(1){
+        grid-row: auto;
+    }
+}
 @media (max-width: 950px){
     .social__wrapper{
         grid-template-columns: repeat(3, 1fr)

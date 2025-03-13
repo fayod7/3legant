@@ -200,6 +200,65 @@ li{
     font-size: 20px;
     margin-top: 10px;
 }
+.shop__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid blue;
+    margin-bottom: 50px;
+    gap: 12px;
+}
+.shop__title{
+    margin: 50px 0;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.1;
+}
+.shop__card{
+    border: 1px solid red;
+    min-height: 319px;
+    background: #F3F5F7;
+    position: relative;
+}
+.shop__card:nth-child(1){
+    grid-row: 1/3;
+}
+.shop__detail{
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 12px;
+}
+.shop__card-juniorbody{
+    margin-left: 48px;
+}
+.shop__card-body{
+    margin-left: 48px;
+    position: absolute;
+    bottom: 80px;
+}
+.shop__details{
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.shop__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background: inherit;
+}
+.shop__btn:hover{
+    opacity: 70%;
+}
+.shop__btn:active{
+    transform: scale(1.04);
+}
 .articles__top{
     display: flex;
     justify-content: space-between;
